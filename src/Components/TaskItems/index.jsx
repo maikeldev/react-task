@@ -3,7 +3,7 @@ import { CheckIcon } from '@heroicons/react/24/solid'
 
 function TaskItems(props){
     return(
-        <div className={`${props.stateTask? 'bg-white' : 'bg-white/50'} my-4 rounded-md flex justify-star py-5 px-2 w-1/3 relative`}>
+        <div className={`${props.stateTask? 'bg-white' : 'bg-white/50'} my-4 rounded-md flex justify-star py-5 px-2 w-96 relative`}>
             <CheckIcon
                 className={`${props.stateTask? 'bg-green-700': 'bg-red-700'} w-10 h-10  rounded-full text-white p-2 flex`}
             />      
