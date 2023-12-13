@@ -15,7 +15,13 @@ function Home() {
       <TaskCount/>
       <TaskSearch/>
       { 
-        context.tasks.map( task => (<TaskItems/>))
+        context.tasks.map( task => (
+          <TaskItems
+            key={task.text}
+            text={task.text}
+            stateTask={task.state}
+          />
+        ))
       }
 
       
