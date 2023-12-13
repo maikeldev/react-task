@@ -1,0 +1,4 @@
+.bg-home{
+    background: linear-gradient(to bottom right, blue, pink);
+    min-height: 100vh;
+}
