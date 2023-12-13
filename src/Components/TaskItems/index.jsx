@@ -1,8 +1,8 @@
 function TaskItems(){
     return(
-        <ul>
-            <li className="bg-white w-80 flex items-center no-underline justify-center p-4 ">Tu Primera Tarea</li>
-        </ul>
+        <div className="my-2">
+            <p className="bg-white w-96 flex items-center no-underline justify-center p-4 ">Tu Primera Tarea</p>
+        </div>
     )
 }
 
